@@ -1,0 +1,89 @@
+
+#carousel {
+    margin-top: 30px;
+    width: 100%; /* ajusta el ancho según tus necesidades */
+    height: 400px; /* ajusta la altura según tus necesidades */
+    overflow: hidden; /* ocultar las imágenes que se desborden del contenedor */
+    position: relative; /* establecemos la posición relativa del contenedor */
+}
+
+#content-carousel {
+    width: fit-content; /* ajusta el ancho según tus necesidades */
+    height: 20vh; /* ajusta la altura según tus necesidades */
+    display: flex; /* utilizamos flexbox para el diseño del carrusel */
+}
+
+#carousel a {
+    height: 30vh; /* ajusta la altura según tus necesidades */
+    margin-right: 20px; /* ajusta el margen derecho entre las imágenes según tus necesidades */
+}
+
+.log-clien {
+    margin-top: 30px;
+    width: 300px;
+    text-align: center;
+}
+
+.log-clien:hover{
+    scale: 115%;
+    transition: 1s;
+}
+
+.logos-clientes {
+    margin: 5% 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.img-thumbnail {
+    width: 200px;
+}
+
+.titulo-clientes {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.p-clientes {
+    text-align: center;
+    color: grey;
+    padding-top: 2%;
+}
+
+.mini-box img{
+    width: 80px;
+}
+
+.school{
+    color: #6c757d;
+}
+.school:hover{
+    color: #BD3D6F;
+}
+
+.team-content img{
+    width: 80%;
+}
+
+.h-mini-card{
+ height:  300px !important;
+}
+
+.float-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.float-btn{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.float-btn img {
+    width: 50px;
+    height: 50px;
+}
+
